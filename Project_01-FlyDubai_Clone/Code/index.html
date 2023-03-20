@@ -10,7 +10,7 @@
 
     <!-- Awsome-Fonts Link! -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Fly-Dubai-Clone</title>
+    <title>Fly-Dubai &copy;</title>
 
     <!-- CSS Links :  -->
 
@@ -208,74 +208,79 @@
 
                                     <div class="booking-select-form ">
 
-                                        <div class="abs-div" id="abs-div_departure-city">
-                                            <p class="abs-div-txt departure-city-txt" id="from">From</p>
-                                            <!-- <p class="abs-div-txt departure-city-txt" id="khi">Karachi Airport (KHI)</p> -->
-                                            <p class="abs-div-txt departure-city-txt" id="khi">Departure city</p>
+                                        <div
+                                            class="booking-dropdowns bg-hexfff d-flex_justify-center flex-dir-col firstFR">
+                                            <p class="dropdown-txt departure-city-txt">From</p>
+                                            <select class="booking-dropDn" name="city-select" id="city">
+                                                <option value=" _blank"></option>
+                                                <option value="Islamabad">Islamabad</option>
+                                                <option value="Mecca">Mecca</option>
+                                                <option value="Medina">Medina</option>
+                                                <option value="Istanbul">Istanbul</option>
+                                                <option value="Baku">Baku</option>
+                                                <option value="Tibilisi">Tibilisi</option>
+                                                <option value="Male'">Male</option>
+                                                <option value="Dubai">Dubai</option>
+                                                <option value="Riadh">Riadh</option>
+                                                <option value="Mesqat">Mesqat</option>
+                                            </select>
+                                            <p class="dropdown-txt departure-city-txt">Departure city</p>
                                         </div>
-                                        <select class="booking-dropdown m-rt-mns_1_point_4em wd-90per"
-                                            name="city-select" id="city">
-                                            <option value=" _blank"></option>
-                                            <option value="Islamabad">Islamabad</option>
-                                            <option value="Mecca">Mecca</option>
-                                            <option value="Medina">Medina</option>
-                                            <option value="Istanbul">Istanbul</option>
-                                            <option value="Baku">Baku</option>
-                                            <option value="Tibilisi">Tibilisi</option>
-                                            <option value="Male'">Male</option>
-                                            <option value="Dubai">Dubai</option>
-                                            <option value="Riadh">Riadh</option>
-                                            <option value="Mesqat">Mesqat</option>
-                                        </select>
 
-                                        <div class="abs-div" id="abs-div_city-destination">
-                                            <!-- <h2 class="abs-div-txt city-destination-txt" id="to">To</h2> -->
-                                            <p class="abs-div-txt city-destination-txt" id="to">To</p>
-                                            <p class="abs-div-txt city-destination-txt" id="destination">Destination
-                                                city
-                                            </p>
+                                        <div
+                                            class="booking-dropdowns bg-hexfff d-flex_justify-center flex-dir-col firstFR">
+                                            <p class="dropdown-txt city-destination-txt">To</p>
+                                            <select class="booking-dropDn" name="destination-select" id="destination">
+                                                <option value=" _blank"></option>
+                                                <option value="Islamabad">Islamabad</option>
+                                                <option value="Mecca">Mecca</option>
+                                                <option value="Medina">Medina</option>
+                                                <option value="Istanbul">Istanbul</option>
+                                                <option value="Baku">Baku</option>
+                                                <option value="Tibilisi">Tibilisi</option>
+                                                <option value="Male'">Male</option>
+                                                <option value="Dubai">Dubai</option>
+                                                <option value="Riadh">Riadh</option>
+                                                <option value="Mesqat">Mesqat</option>
+                                            </select>
+                                            <p class="dropdown-txt city-destination-txt">Destination city</p>
                                         </div>
-                                        <select class="booking-dropdown" name="destination-select" id="destination">
-                                            <option value=" _blank"></option>
-                                            <option value="Islamabad">Islamabad</option>
-                                            <option value="Mecca">Mecca</option>
-                                            <option value="Medina">Medina</option>
-                                            <option value="Istanbul">Istanbul</option>
-                                            <option value="Baku">Baku</option>
-                                            <option value="Tibilisi">Tibilisi</option>
-                                            <option value="Male'">Male</option>
-                                            <option value="Dubai">Dubai</option>
-                                            <option value="Riadh">Riadh</option>
-                                            <option value="Mesqat">Mesqat</option>
-                                        </select>
 
-                                        <div class="abs-div" id="abs-div_date-departure">
-                                            <p class="abs-div-txt" id="date">Departure date</p>
+                                        <div
+                                            class="booking-dropdowns bg-hexfff d-flex_justify-center flex-dir-col secondFR">
+                                            <input type="datetime-local" name="date-input" id="date-input"
+                                                class="booking-dropDn wd-100per" required>
+                                            <p class="dropdown-txt">Departure date</p>
                                         </div>
-                                        <input type="datetime-local" name="date-input" id="date-input"
-                                            class="booking-dropdown" required>
 
-                                        <div class="abs-div" id="abs-div_Passengers">
-                                            <p class="abs-div-txt Passengers-txt" id="passenger">Passenger</p>
-                                            <p class="abs-div-txt Passengers-txt" id="economy">Economy</p>
+                                        <div
+                                            class="booking-dropdowns bg-hexfff d-flex_justify-center flex-dir-col secondFR">
+                                            <p class="dropdown-txt Passengers-txt m-lt-3per">Passengers</p>
+                                            <select class="booking-dropDn" name="passenger-select"
+                                                id="passenger-select">
+                                                <option value="1-Passengers">
+                                                    1 Passenger
+                                                </option>
+                                                <option value="2-Passengers">2 Passengers</option>
+                                                <option value="3-Passengers">3 Passengers</option>
+                                                <option value="4-Passengers">4 Passengers</option>
+                                                <option value="5-Passengers">5 Passengers</option>
+                                                <option value="6-Passengers">6 Passengers</option>
+                                                <option value="7-Passengers">7 Passengers</option>
+                                                <option value="8-Passengers">8 Passengers</option>
+                                                <option value="9-Passengers">9 Passengers</option>
+                                                <option value="10-Passengers">10 Passengers</option>
+                                                <option value="10++Passenger">10++ Passengers</option>
+                                            </select>
+                                            <p class="dropdown-txt Passengers-txt">Economy</p>
                                         </div>
-                                        <select class="booking-dropdown" name="passenger-select" id="passenger-select">
-                                            <option value="1-Passengers">
-                                                1 Passenger
-                                            </option>
-                                            <option value="2-Passengers">2 Passengers</option>
-                                            <option value="3-Passengers">3 Passengers</option>
-                                            <option value="4-Passengers">4 Passengers</option>
-                                            <option value="5-Passengers">5 Passengers</option>
-                                            <option value="6-Passengers">6 Passengers</option>
-                                            <option value="7-Passengers">7 Passengers</option>
-                                            <option value="8-Passengers">8 Passengers</option>
-                                            <option value="9-Passengers">9 Passengers</option>
-                                            <option value="10-Passengers">10 Passengers</option>
-                                            <option value="10++Passenger">10++ Passengers</option>
-                                        </select>
+                                        <!-- <div class="booking-dropdowns bg-hexfff d-flex_justify-center flex-dir-col ">
+                                            <p></p>
+                                            <p></p>
+                                        </div> -->
 
-                                        <button class="btn dimOpacity-OnHover" id="booking-search-btn"> SEARCH </button>
+                                        <button class="btn dimOpacity-OnHover secondFR" id="booking-search-btn"> SEARCH
+                                        </button>
                                     </div>
 
                                 </form>
