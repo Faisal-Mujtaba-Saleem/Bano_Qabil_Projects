@@ -90,8 +90,8 @@ svg {
 
 select,
 option,
-input {
-    cursor: pointer;
+input[type=datetime-local] {
+    /* cursor: pointer; */
     color: #006496;
     border-color: transparent;
     outline: none;
